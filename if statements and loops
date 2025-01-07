@@ -1,0 +1,18 @@
+#Alejandro Elias
+# 1/7/25
+# if statement and for loop review
+score = int(input("Enter your score: "))
+if score < 101:
+    print("Novice")
+elif score < 201:
+    print("Intermediate")
+elif score < 301:
+    print("Advanced")
+else:
+    print("Expert")
+
+for i in range(2, 80, 10):
+    print(i, end = " ")
+    
+for i in range(100, 9, -10):
+    print(i, end = " ")
