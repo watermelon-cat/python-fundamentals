@@ -1,0 +1,13 @@
+#Alejandro Elias
+#1/8/25
+#While loop examples and List reviews
+
+#while loop to print numbers from 50 to 0 counting down by 5
+num = 50
+while num >= 0:
+    print(num, end = " ")
+    num -= 5
+    
+UserInput = "something" #dummy value
+while UserInput != "secret word":
+    UserInput = input("otters hold hands when they sleep")
