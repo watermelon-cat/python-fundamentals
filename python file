@@ -24,3 +24,27 @@ file = open('example.txt', 'r')
 content = file.read()
 print(content)
 file.close
+
+#write a diffrent file with 3 of your favoriet animnals and print, append a 4th animal and print again
+file = open('animal.txt', 'w')
+file.write("panda\n")
+file.write("goldfish\n")
+file.write("sloth\n")
+file.close()
+
+#reading from a file
+file = open('animal.txt', 'r')
+content = file.read() #stores as a giant long string
+print(content)
+file.close()
+
+#appending a file
+file = open('animal.txt', 'a')
+file.write("red panda\n")
+file.close()
+
+#reading the appended content
+file = open('animal.txt', 'r')
+content = file.read()
+print(content)
+file.close
