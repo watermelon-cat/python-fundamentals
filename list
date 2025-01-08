@@ -1,0 +1,12 @@
+#Alejandro Elias
+#1/8/25
+#make a list with my favorite animals
+
+animals = ["otters", "elephants", "raccoons"]
+print(animals)
+animals.append("cats")
+print(animals)
+animals.sort()
+print(animals)
+animals.remove("elephants")
+print(animals)
