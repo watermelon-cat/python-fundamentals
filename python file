@@ -1,0 +1,26 @@
+#Alejandro Elias
+#1/8/25
+#python file 1/0   how to write to and read from text files
+
+#writing to a file
+file = open('example.txt', 'w')
+file.write("Hello, this is a test file.\n")
+file.write("this is the second line.\n")
+file.close()
+
+#reading from a file
+file = open('example.txt', 'r')
+content = file.read() #stores as a giant long string
+print(content)
+file.close()
+
+#appending a file
+file = open('example.txt', 'a')
+file.write("this is an appened line.\n")
+file.close()
+
+#reading the appended content
+file = open('example.txt', 'r')
+content = file.read()
+print(content)
+file.close
